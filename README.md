@@ -70,14 +70,14 @@ In april 2020 I have graduated from the [Milan Conservatory](https://www.consmi.
 
 ## Blog posts
 
+I like to write about the things I learn. Here are a few examples:
+
 - [How to make a ChatBot using HTTP streaming with LangChain and Express](https://dev.to/fibonacid/quick-guide-for-langchain-streaming-via-expressjs-iod)
 - [The best way to fetch data from Sanity (using zod)](https://dev.to/fibonacid/the-best-way-to-fetch-data-from-sanity-using-zod-57jj)
 - [Consuming Web Streams with useState, SWR and React Query](https://dev.to/fibonacid/consuming-web-streams-with-usestate-swr-and-react-query-3mjf)
 - [Taming the HTML dialog with React and TailwindCSS](https://dev.to/fibonacid/taming-the-html-dialog-with-react-and-tailwindcss-5hec)
 - [Consuming Web Streams with useState, SWR and React Query](https://dev.to/fibonacid/consuming-web-streams-with-usestate-swr-and-react-query-3mjf)
 - [SEO friendly infinite scroll for Shopify themes](https://dev.to/fibonacid/seo-friendly-infinite-scroll-for-shopify-themes-4f81)
-
-For more posts visit my [blog](https://dev.to/fibonacid)
 
 ## Additional links
 
