@@ -47,9 +47,10 @@ My stack includes [React](https://react.dev/), [TypeScript](https://www.typescri
 ### La Colonia (2019 - 2023)
 
 I worked as a frontend developer on a wide range of projects. From marketing webistes to E-Commerce and interactive web applications. During my time at [La Colonia](https://lacolonia.studio) I helped the company to optimize the development process by introducing new tools and deployment strategies. Here are a few examples of projects I worked on:
-- [https://andreacaputo.com](https://andreacaputo.com)
-- [https://karlaotto.com](https://karlaotto.com)
 - [https://akfc66.gr](https://akfc66.gr/)
+- [https://andreacaputo.com](https://andreacaputo.com)
+- [https://blackmed.invernomuto.info](https://blackmed.invernomuto.info)
+- [https://karlaotto.com](https://karlaotto.com)
 - [https://veneziafc.it](https://veneziafc.it)
 
 ### Freelance (2022 - Present)
