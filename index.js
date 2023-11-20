@@ -5,18 +5,52 @@ import remarkParse from "remark-parse";
 import remarkRehype from "remark-rehype";
 import { unified } from "unified";
 import { reporter } from "vfile-reporter";
+import githubMarkdownCss from "generate-github-markdown-css";
+import { readFile, writeFile } from "node:fs/promises";
 
-import { readFileSync, writeFileSync } from "node:fs";
+const style = `
+body {
+  box-sizing: border-box;
+  min-width: 200px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 45px;
+}
 
-unified()
+@media (max-width: 767px) {
+  body {
+    padding: 15px;
+  }
+}`;
+
+const processor = unified()
   .use(remarkParse)
   .use(remarkRehype)
-  .use(rehypeDocument)
+  .use(rehypeDocument, {
+    css: "./style.css",
+    style,
+  })
   .use(rehypeFormat)
-  .use(rehypeStringify)
-  .process(readFileSync("README.md"))
-  .then((file) => {
-    const text = String(file);
-    writeFileSync("README.html", text);
-    console.error(reporter(file));
+  .use(rehypeStringify);
+
+async function main() {
+  // generate index.html
+  const input = await readFile("README.md");
+  const file = await processor.process(input);
+  console.error(reporter(file));
+  const text = String(file);
+  await writeFile("index.html", text);
+
+  // generate style.css
+  if (readFile("style.css")) return;
+  const css = await githubMarkdownCss({
+    dark: "dark",
+    rootSelector: "body",
   });
+  await writeFile("style.css", css);
+}
+
+main().catch((error) => {
+  console.error(error);
+  process.exit(1);
+});

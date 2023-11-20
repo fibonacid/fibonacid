@@ -21,5 +21,8 @@
     "to-vfile": "^8.0.0",
     "unified": "^11.0.4",
     "vfile-reporter": "^8.1.0"
+  },
+  "dependencies": {
+    "generate-github-markdown-css": "^6.1.0"
   }
 }
