@@ -17,22 +17,30 @@ Ever since I found it I have been using it as my avatar.
 
 I'm a passionate coder with a strong interest in user experience and accessibility. Here are a few technologies I have worked with:
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)
-![React.js](https://img.shields.io/badge/React.js-61DAFB?logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white)
-![Styled Components](https://img.shields.io/badge/Styled%20Components-DB7093?logo=styled-components&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-000000?logo=three.js&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
-![Github](https://img.shields.io/badge/Github-181717?logo=github&logoColor=white)
-![Gitlab](https://img.shields.io/badge/Gitlab-FCA121?logo=gitlab&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Shopify](https://img.shields.io/badge/Shopify-7AB55C?logo=shopify&logoColor=white)
-![Sanity](https://img.shields.io/badge/Sanity-000000?logo=sanity&logoColor=white)
-![Wordpress](https://img.shields.io/badge/Wordpress-21759B?logo=wordpress&logoColor=white)
+[![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white)](https://amazonaws.com)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Debian](https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=white)](https://debian.org)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=white)](https://firebase.google.com)
+[![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)](https://git-scm.com/)
+[![Github](https://img.shields.io/badge/Github-181717?logo=github&logoColor=white)](https://github.com/)
+[![Gitlab](https://img.shields.io/badge/Gitlab-FCA121?logo=gitlab&logoColor=white)](https://about.gitlab.com/)
+[![GraphQL](https://img.shields.io/badge/GraphQL-E10098?logo=graphql&logoColor=white)](https://graphql.org/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Glossary/HTML)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodejs&logoColor=white)](https://nodejs.org/en)
+[![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white)](https://www.openai.com/)
+[![React.js](https://img.shields.io/badge/React.js-61DAFB?logo=react&logoColor=black)](https://react.dev/)
+[![Ruby on Rails](https://img.shields.io/badge/Ruby_on_Rails-CC0000?logo=ruby-on-rails&logoColor=white)](https://rubyonrails.org/)
+[![Sanity](https://img.shields.io/badge/Sanity-000000?logo=sanity&logoColor=white)](https://www.sanity.io/)
+[![Shopify](https://img.shields.io/badge/Shopify-7AB55C?logo=shopify&logoColor=white)](https://www.shopify.com/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Three.js](https://img.shields.io/badge/Three.js-000000?logo=three.js&logoColor=white)](https://threejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)](https://vercel.com)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Wordpress](https://img.shields.io/badge/Wordpress-21759B?logo=wordpress&logoColor=white)](https://wordpress.com/it/)
+[![tRPC](https://img.shields.io/badge/tRPC-2596BE?logo=trpc&logoColor=white)](https://trpc.io/)
 
 
 ## Experience
@@ -40,12 +48,11 @@ I'm a passionate coder with a strong interest in user experience and accessibili
 ### [Assist Digital](https://www.assistdigital.com) (2023 - Present)
 
 I'm the lead frontend developer on service line dedicated to generative AI.
-I work with the team to design and develop web applications to showcase our AI solutions. My stack includes React, TypeScript, TailwindCSS, Tanstack Query, Gitlab CI/CD, Vite. 
+I work with the team to design and develop web applications to showcase our AI solutions. My stack includes [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), [TailwindCSS](https://tailwindcss.com/), [Tanstack Query](https://tanstack.com/query/latest), [Gitlab](https://about.gitlab.com/), [Vite](https://vitejs.dev/). 
 
 ### [La Colonia Studio](https://lacolonia.studio/) (2019 -  2023)
 
-I worked as a frontend developer on a wide range of projects. From marketing webistes to E-Commerce and interactive web applications. During my time at La Colonia I helped the company to optimize the development process by introducing new tools and deployment strategies. My stack included React, TypeScript, Next.js, TailwindCSS, Styled Components, Github Actions, Docker and Shopify.
-Here are a few examples of projects I worked on:
+I worked as a frontend developer on a wide range of projects. From marketing webistes to E-Commerce and interactive web applications. During my time at La Colonia I helped the company to optimize the development process by introducing new tools and deployment strategies. Here are a few examples of projects I worked on:
 - [https://andreacaputo.com](https://andreacaputo.com)
 - [https://karlaotto.com](https://karlaotto.com)
 - [https://akfc66.gr](https://akfc66.gr/)
@@ -53,7 +60,8 @@ Here are a few examples of projects I worked on:
 
 ### [Freelance](https://fibonacid.net) (2022 - Present)
 
-I have worked on a few projects as a freelance developer. Here are a few examples:
+I have worked on a few projects as a freelance developer. 
+Here are a few examples:
 - [https://eneatoldo.com](https://eneatoldo.com)
 - [https://eneatoldo.studio](https://eneatoldo.studio)
 - [https://lacortedeimiracoli.it](https://lacortedeimiracoli.it)
