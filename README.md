@@ -40,27 +40,26 @@ I'm a passionate coder with a strong interest in user experience and accessibili
 
 ## Experience
 
-### [Assist Digital](https://www.assistdigital.com) (2023 - Present)
+### Assist Digital (2023 - Present)
 
-I'm the lead frontend developer on service line dedicated to generative AI.
-I work with the team to design and develop web applications to showcase our AI solutions. My stack includes [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), [TailwindCSS](https://tailwindcss.com/), [Tanstack Query](https://tanstack.com/query/latest), [Gitlab](https://about.gitlab.com/), [Vite](https://vitejs.dev/). 
+I work in the Advanced AI team at [Assist Digital](https://assistdigital.com). My job involves working with cross-functional teams to design and develop user interfaces.
+My stack includes [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), [TailwindCSS](https://tailwindcss.com/), [Tanstack Query](https://tanstack.com/query/latest), [Gitlab](https://about.gitlab.com/), [Vite](https://vitejs.dev/). 
 
-### [La Colonia](https://lacolonia.studio/) (2019 -  2023)
+### La Colonia (2019 - 2023)
 
-I worked as a frontend developer on a wide range of projects. From marketing webistes to E-Commerce and interactive web applications. During my time at La Colonia I helped the company to optimize the development process by introducing new tools and deployment strategies. Here are a few examples of projects I worked on:
+I worked as a frontend developer on a wide range of projects. From marketing webistes to E-Commerce and interactive web applications. During my time at [La Colonia](https://lacolonia.studio) I helped the company to optimize the development process by introducing new tools and deployment strategies. Here are a few examples of projects I worked on:
 - [https://andreacaputo.com](https://andreacaputo.com)
 - [https://karlaotto.com](https://karlaotto.com)
 - [https://akfc66.gr](https://akfc66.gr/)
 - [https://veneziafc.it](https://veneziafc.it)
 
-### [Freelance](https://fibonacid.net) (2022 - Present)
+### Freelance (2022 - Present)
 
 I have worked on a few projects as a freelance developer. 
 Here are a few examples:
 - [https://eneatoldo.com](https://eneatoldo.com)
 - [https://eneatoldo.studio](https://eneatoldo.studio)
 - [https://lacortedeimiracoli.it](https://lacortedeimiracoli.it)
-- [https://fibonacid.net](https://fibonacid.net)
 
 ## Education
 
@@ -77,4 +76,7 @@ In april 2020 I have graduated from the Milan Conservatory with a Bachelor degre
 
 For more posts visit my [blog](https://dev.to/fibonacid)
 
+## Additional links
 
+- [My website](https://fibonacid.net)
+- [My personal email](mailto:lorenzorivosecchi3@gmail.com)
