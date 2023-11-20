@@ -1,0 +1,20 @@
+{
+  "name": "curriculum",
+  "version": "1.0.0",
+  "description": "Curriculum Vitae",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/fibonacid/curriculum.git",
+  "author": "Lorenzo Rivosecchi <lorenzorivosecchi3@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "node ./index.js"
+  },
+  "dependencies": {
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1",
+    "remark-preset-lint-markdown-style-guide": "^5.1.3",
+    "vfile-reporter": "^8.1.0"
+  }
+}
