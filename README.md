@@ -1,15 +1,12 @@
 # Lorenzo Rivosecchi
 
-Curriculum Vitae
+I'm a Web Developer with 5 years of experience in the field. I'm currently working at [Assist Digital](https://assistdigital.com) as a Frontend Developer.
+I have a background in Computer Music and my passions are music, technology and design.
 
 [![Github](https://img.shields.io/badge/Github-black?logo=github)](https://github.com/fibonacid)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin)](https://www.linkedin.com/in/lorenzo-rivosecchi/)
 [![Blog](https://img.shields.io/badge/Blog-black?logo=devdotto)](https://dev.to/fibonacid)
-[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/fibonacid)](https://twitter.com/fibonacid)
-[![Website](https://img.shields.io/badge/Website-black)](https://fibonacid.net)
-
-I'm a Web Developer with 5 years of experience in the field. I'm currently working at [Assist Digital](https://assistdigital.com) as a Frontend Developer.
-I have a background in Computer Music and my passions are music, technology and design.
+[![X (formerly Twitter) ](https://img.shields.io/twitter/follow/fibonacid)](https://twitter.com/fibonacid)
 
 ## Skills
 
@@ -79,3 +76,5 @@ In april 2020 I have graduated from the Milan Conservatory with a Bachelor degre
 - [SEO friendly infinite scroll for Shopify themes](https://dev.to/fibonacid/seo-friendly-infinite-scroll-for-shopify-themes-4f81)
 
 For more posts visit my [blog](https://dev.to/fibonacid)
+
+
