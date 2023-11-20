@@ -6,14 +6,14 @@
 [![Website](https://img.shields.io/badge/fibonacid.net-black)](https://fibonacid.net)
 ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/fibonacid)
 
-<div>
-    <img src="avatar.jpg" width="50%" align="left">
-    <p>I'm a Web Developer with 5 years of experience in the field. I'm currently working at <a href="https://www.assistdigital.com/">Assist Digital</a> as a Frontend Developer.<br />
-    I have a background in Computer Music and my passions are music, technology and design.
-    </p>
-</div>
+I'm a Web Developer with 5 years of experience in the field. I'm currently working at Assist Digital as a Frontend Developer.
+I have a background in Computer Music and my passions are music, technology and design.
 
-> I made the image above using MS Paint when i was 10 years old (i think). I'm still proud of it.
+<p align="center">
+    <img src="avatar.jpg" width="75%">
+</p>
+
+> I made this image when I was 10 years old with MS Paint. I'm still proud of it.
 
 ## Skills
 
@@ -35,6 +35,7 @@ I'm a passionate coder with a strong interest in user experience and accessibili
 ![Shopify](https://img.shields.io/badge/Shopify-7AB55C?logo=shopify&logoColor=white)
 ![Sanity](https://img.shields.io/badge/Sanity-000000?logo=sanity&logoColor=white)
 ![Wordpress](https://img.shields.io/badge/Wordpress-21759B?logo=wordpress&logoColor=white)
+
 
 ## Experience
 
