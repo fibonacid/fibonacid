@@ -48,7 +48,7 @@ I'm a passionate coder with a strong interest in user experience and accessibili
 I'm the lead frontend developer on service line dedicated to generative AI.
 I work with the team to design and develop web applications to showcase our AI solutions. My stack includes [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), [TailwindCSS](https://tailwindcss.com/), [Tanstack Query](https://tanstack.com/query/latest), [Gitlab](https://about.gitlab.com/), [Vite](https://vitejs.dev/). 
 
-### [La Colonia Studio](https://lacolonia.studio/) (2019 -  2023)
+### [La Colonia](https://lacolonia.studio/) (2019 -  2023)
 
 I worked as a frontend developer on a wide range of projects. From marketing webistes to E-Commerce and interactive web applications. During my time at La Colonia I helped the company to optimize the development process by introducing new tools and deployment strategies. Here are a few examples of projects I worked on:
 - [https://andreacaputo.com](https://andreacaputo.com)
