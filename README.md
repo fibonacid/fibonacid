@@ -14,7 +14,9 @@ I'm a Web Developer with 5 years of experience in the field. I'm currently worki
 
 > I made the image above using MS Paint when i was 10 years old (i think). I'm still proud of it.
 
-## Technologies 
+## Skills
+
+I'm a passionate coder with a strong interest in user experience and accessibility. Here are a few technologies I have worked with:
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
