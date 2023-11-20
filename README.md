@@ -6,9 +6,10 @@
 [![Website](https://img.shields.io/badge/fibonacid.net-black)](https://fibonacid.net)
 ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/fibonacid)
 
+<p>
 <img src="avatar.jpg" width="375" height="300" align="left">
-
 I'm a Web Developer with 5 years of experience in the field. I'm currently working at [Assist Digital](https://www.assistdigital.com/) as a Frontend Developer. I have a background in Computer Music and my passions are music, technology and design.
+<p>
 
 > I made the image above using MS Paint when i was 10 years old (i think). I'm still proud of it.
 
