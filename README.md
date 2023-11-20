@@ -10,8 +10,8 @@
     <img src="avatar.jpg" width="50%" align="left">
     <p>I'm a Web Developer with 5 years of experience in the field. I'm currently working at <a href="https://www.assistdigital.com/">Assist Digital</a> as a Frontend Developer.<br />
     I have a background in Computer Music and my passions are music, technology and design.
-    <p>
-<div>
+    </p>
+</div>
 
 > I made the image above using MS Paint when i was 10 years old (i think). I'm still proud of it.
 
