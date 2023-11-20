@@ -1,3 +1,5 @@
+![Banner](banner.png)
+
 # Lorenzo Rivosecchi 
 
 [![Github](https://img.shields.io/badge/github-black?logo=github)](https://github.com/fibonacid)
@@ -8,12 +10,6 @@
 
 I'm a Web Developer with 5 years of experience in the field. I'm currently working at Assist Digital as a Frontend Developer.
 I have a background in Computer Music and my passions are music, technology and design.
-
-<p align="center">
-    <img src="avatar.jpg" width="75%" alt="Abstract painting">
-</p>
-
-> I made this image when I was 10 years old with MS Paint. I'm still proud of it.
 
 ## Skills
 
