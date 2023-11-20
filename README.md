@@ -8,7 +8,7 @@
 
 <div>
     <img src="avatar.jpg" width="50%" align="left">
-    <p>I'm a Web Developer with 5 years of experience in the field. I'm currently working at <a href="https://www.assistdigital.com/">Assist Digital<a> as a Frontend Developer.<br />
+    <p>I'm a Web Developer with 5 years of experience in the field. I'm currently working at <a href="https://www.assistdigital.com/">Assist Digital</a> as a Frontend Developer.<br />
     I have a background in Computer Music and my passions are music, technology and design.
     <p>
 <div>
