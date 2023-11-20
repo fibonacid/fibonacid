@@ -6,8 +6,8 @@ import remarkRehype from "remark-rehype";
 import remarkGfm from "remark-gfm";
 import { unified } from "unified";
 import { reporter } from "vfile-reporter";
-import githubMarkdownCss from "generate-github-markdown-css";
-import { readFile, writeFile, mkdir, readdir } from "node:fs/promises";
+import { readFile, writeFile } from "node:fs/promises";
+import { mkdirp, copy, emptyDir } from "fs-extra";
 import puppeteer from "puppeteer";
 
 const style = `
@@ -30,28 +30,26 @@ const processor = unified()
   .use(remarkGfm)
   .use(remarkRehype)
   .use(rehypeDocument, {
-    css: "./style.css",
+    css: "./assets/style.css",
     style,
   })
   .use(rehypeFormat)
   .use(rehypeStringify);
 
 async function main() {
+  // clean dist
+  await mkdirp("dist");
+  await emptyDir("dist");
+
+  // copy assets
+  await copy("assets", "dist/assets");
+
   // generate index.html
   const input = await readFile("README.md");
   const file = await processor.process(input);
   console.error(reporter(file));
   const text = String(file);
-
-  if (!(await readdir("dist"))) await mkdir("dist");
   await writeFile("dist/index.html", text);
-
-  // generate style.css
-  const css = await githubMarkdownCss({
-    dark: "dark",
-    rootSelector: "body",
-  });
-  await writeFile("dist/style.css", css);
 
   // print pdf
   const browser = await puppeteer.launch({
