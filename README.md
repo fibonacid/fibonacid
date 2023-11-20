@@ -44,8 +44,6 @@ I'm a passionate coder with a strong interest in user experience and accessibili
 I'm the lead frontend developer on service line dedicated to generative AI.
 I work with the team to design and develop web applications to showcase our AI solutions. My stack includes React, TypeScript, TailwindCSS, Tanstack Query, Gitlab CI/CD, Vite. 
 
----
-
 ### [La Colonia Studio](https://lacolonia.studio/) (2019 -  2023)
 
 I worked as a frontend developer on a wide range of projects. From marketing webistes to E-Commerce and interactive web applications. During my time at La Colonia I helped the company to optimize the development process by introducing new tools and deployment strategies. My stack included React, TypeScript, Next.js, TailwindCSS, Styled Components, Github Actions, Docker and Shopify.
@@ -54,8 +52,6 @@ Here are a few examples of projects I worked on:
 - [https://karlaotto.com](https://karlaotto.com)
 - [https://akfc66.gr](https://akfc66.gr/)
 - [https://veneziafc.it](https://veneziafc.it)
-
----
 
 ### [Freelance](https://fibonacid.net) (2022 - Present)
 
