@@ -6,7 +6,8 @@ import remarkRehype from "remark-rehype";
 import { unified } from "unified";
 import { reporter } from "vfile-reporter";
 import githubMarkdownCss from "generate-github-markdown-css";
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile, writeFile, mkdir, readdir } from "node:fs/promises";
+import puppeteer from "puppeteer";
 
 const style = `
 body {
@@ -39,15 +40,29 @@ async function main() {
   const file = await processor.process(input);
   console.error(reporter(file));
   const text = String(file);
-  await writeFile("index.html", text);
+
+  if (!(await readdir("dist"))) await mkdir("dist");
+  await writeFile("dist/index.html", text);
 
   // generate style.css
-  if (readFile("style.css")) return;
   const css = await githubMarkdownCss({
     dark: "dark",
     rootSelector: "body",
   });
-  await writeFile("style.css", css);
+  await writeFile("dist/style.css", css);
+
+  // print pdf
+  const browser = await puppeteer.launch({
+    headless: "new",
+  });
+  const page = await browser.newPage();
+  await page.goto(`file://${process.cwd()}/dist/index.html`);
+  await page.pdf({
+    path: "./dist/Curriculum.pdf",
+    format: "A4",
+    printBackground: true,
+  });
+  await browser.close();
 }
 
 main().catch((error) => {

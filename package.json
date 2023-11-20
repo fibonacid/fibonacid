@@ -23,6 +23,7 @@
     "vfile-reporter": "^8.1.0"
   },
   "dependencies": {
-    "generate-github-markdown-css": "^6.1.0"
+    "generate-github-markdown-css": "^6.1.0",
+    "puppeteer": "^21.5.2"
   }
 }
