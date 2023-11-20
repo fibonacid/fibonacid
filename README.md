@@ -8,7 +8,7 @@ I have a background in Computer Music and my passions are music, technology and 
 [![Blog](https://img.shields.io/badge/Blog-black?logo=devdotto)](https://dev.to/fibonacid)
 [![X (formerly Twitter)](https://img.shields.io/twitter/follow/fibonacid)](https://twitter.com/fibonacid)
 
-> Have you noticed that this page looks like a Github `README`?
+> Have you noticed that this document looks like a Github page?
 Have a look at the source code [here](https://github.com/fibonacid/curriculum)
 
 ## Skills
