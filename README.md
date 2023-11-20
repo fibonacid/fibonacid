@@ -6,7 +6,7 @@ I have a background in Computer Music and my passions are music, technology and 
 [![Github](https://img.shields.io/badge/Github-black?logo=github)](https://github.com/fibonacid)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin)](https://www.linkedin.com/in/lorenzo-rivosecchi/)
 [![Blog](https://img.shields.io/badge/Blog-black?logo=devdotto)](https://dev.to/fibonacid)
-[![X (formerly Twitter) ](https://img.shields.io/twitter/follow/fibonacid)](https://twitter.com/fibonacid)
+[![X (formerly Twitter)](https://img.shields.io/twitter/follow/fibonacid)](https://twitter.com/fibonacid)
 
 ## Skills
 
@@ -37,7 +37,6 @@ I'm a passionate coder with a strong interest in user experience and accessibili
 [![Wordpress](https://img.shields.io/badge/Wordpress-21759B?logo=wordpress&logoColor=white)](https://wordpress.com/it/)
 [![tRPC](https://img.shields.io/badge/tRPC-2596BE?logo=trpc&logoColor=white)](https://trpc.io/)
 
-
 ## Experience
 
 ### Assist Digital (2023 - Present)
@@ -63,7 +62,7 @@ Here are a few examples:
 
 ## Education
 
-In april 2020 I have graduated from the Milan Conservatory with a Bachelor degree in Electronic Music. As part of my thesis I created a web application to play music with friends over the internet using Electron JS and SuperCollider. The project can be found [here](https://github.com/fibonacid/superorch)
+In april 2020 I have graduated from the [Milan Conservatory](https://www.consmi.it/it/home) with a Bachelor degree in [Electronic Music](https://siami.conservatoriodimusica.it/studenti/cplan/3361). As part of my thesis I created a web application to play music with friends over the internet using [Electron](https://www.electronjs.org/) and [SuperCollider](https://supercollider.github.io/). The project can be found [here](https://github.com/fibonacid/superorch)
 
 ## Blog posts
 
