@@ -1,5 +1,7 @@
 # Lorenzo Rivosecchi
 
+Curriculum Vitae
+
 [![Github](https://img.shields.io/badge/Github-black?logo=github)](https://github.com/fibonacid)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin)](https://www.linkedin.com/in/lorenzo-rivosecchi/)
 [![Blog](https://img.shields.io/badge/Blog-black?logo=devdotto)](https://dev.to/fibonacid)
@@ -8,10 +10,6 @@
 
 I'm a Web Developer with 5 years of experience in the field. I'm currently working at [Assist Digital](https://assistdigital.com) as a Frontend Developer.
 I have a background in Computer Music and my passions are music, technology and design.
-
-![Banner](./assets/banner.png)
-> I made this picture when I was 10 using MS Paint.
-Ever since I found it I have been using it as my avatar.
 
 ## Skills
 
