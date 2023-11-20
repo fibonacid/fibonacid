@@ -6,8 +6,7 @@
 [![Website](https://img.shields.io/badge/fibonacid.net-black)](https://fibonacid.net)
 [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/fibonacid)](https://twitter.com/fibonacid)
 
-
-I'm a Web Developer with 5 years of experience in the field. I'm currently working at Assist Digital as a Frontend Developer.
+I'm a Web Developer with 5 years of experience in the field. I'm currently working at [Assist Digital](https://assistdigital.com) as a Frontend Developer.
 I have a background in Computer Music and my passions are music, technology and design.
 
 ![Banner](./assets/banner.png)
