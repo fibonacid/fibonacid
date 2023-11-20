@@ -17,5 +17,26 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: curriculum
-          path: ./dist/curriculum.pdf
+          path: ./dist/Curriculum.pdf
+  upload-pdf:
+    needs: create-pdf
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download PDF
+        uses: actions/download-artifact@v3
+        with:
+          name: curriculum
+          path: ./dist
+      - id: 'auth'
+        uses: 'google-github-actions/auth@v1'
+        with:
+          credentials_json: '${{ secrets.GCP_CREDENTIALS }}'
+
+      - name: 'Set up Cloud SDK'
+        uses: 'google-github-actions/setup-gcloud@v1'
+
+      - name: 'Use gcloud CLI'
+        run: 'gcloud info'
+
+
       
