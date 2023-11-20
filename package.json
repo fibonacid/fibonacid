@@ -12,7 +12,10 @@
     "build": "node ./index.js"
   },
   "devDependencies": {
+    "generate-github-markdown-css": "^6.1.0",
+    "puppeteer": "^21.5.2",
     "rehype-document": "^7.0.2",
+    "remark-gfm": "^4.0.0",
     "rehype-format": "^5.0.0",
     "rehype-stringify": "^10.0.0",
     "remark-parse": "^11.0.0",
@@ -21,9 +24,5 @@
     "to-vfile": "^8.0.0",
     "unified": "^11.0.4",
     "vfile-reporter": "^8.1.0"
-  },
-  "dependencies": {
-    "generate-github-markdown-css": "^6.1.0",
-    "puppeteer": "^21.5.2"
   }
 }

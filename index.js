@@ -3,6 +3,7 @@ import rehypeFormat from "rehype-format";
 import rehypeStringify from "rehype-stringify";
 import remarkParse from "remark-parse";
 import remarkRehype from "remark-rehype";
+import remarkGfm from "remark-gfm";
 import { unified } from "unified";
 import { reporter } from "vfile-reporter";
 import githubMarkdownCss from "generate-github-markdown-css";
@@ -26,6 +27,7 @@ body {
 
 const processor = unified()
   .use(remarkParse)
+  .use(remarkGfm)
   .use(remarkRehype)
   .use(rehypeDocument, {
     css: "./style.css",
