@@ -6,12 +6,13 @@
 [![Website](https://img.shields.io/badge/fibonacid.net-black)](https://fibonacid.net)
 ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/fibonacid)
 
-
-## About me
-
-<img src="avatar.jpg" align="right" width="125" height="100">
-
+<p align="center">
+    <img src="avatar.jpg" width="250" height="200">
+</p>
+ 
 I'm a Web Developer with 5 years of experience in the field. I'm currently working at [Assist Digital](https://www.assistdigital.com/) as a Frontend Developer. I have a background in Computer Music and my passions are music, technology and design.
+
+> I made the image above using MS Paint when i was 10 years old (i think). I'm still proud of it.
 
 ## Technologies 
 
