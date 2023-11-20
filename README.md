@@ -35,6 +35,20 @@ I work with the team to design and develop web applications to showcase our AI s
 
 I worked as a frontend developer on a wide range of projects. From marketing webistes to E-Commerce and interactive web applications. During my time at La Colonia I helped the company to optimize the development process by introducing new tools and deployment strategies. My stack included React, TypeScript, Next.js, TailwindCSS, Styled Components, Github Actions, Docker and Shopify.
 
+Here are a few examples of projects I worked on:
+- [https://andreacaputo.com](https://andreacaputo.com)
+- [https://karlaotto.com](https://karlaotto.com)
+- [https://akfc66.gr](https://akfc66.gr/)
+- [https://veneziafc.it](https://veneziafc.it)
+
+### [Freelance](https://fibonacid.net) (2022 - Present)
+
+I have worked on a few projects as a freelance developer. Here are a few examples:
+- [https://eneatoldo.com](https://eneatoldo.com)
+- [https://eneatoldo.studio](https://eneatoldo.studio)
+- [https://lacortedeimiracoli.it](https://lacortedeimiracoli.it)
+- [https://fibonacid.net](https://fibonacid.net)
+
 ## Education
 
 In april 2020 I have graduated from the Milan Conservatory with a Bachelor degree in Electronic Music. As part of my thesis I created a web application to play music with friends over the internet using Electron JS and SuperCollider. The project can be found [here](https://github.com/fibonacid/superorch)
