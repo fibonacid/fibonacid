@@ -1,14 +1,15 @@
 # Lorenzo Rivosecchi 
 
-[![Github](https://img.shields.io/badge/github-fibonacid-black?logo=github)](https://github.com/fibonacid)
-[![LinkedIn](https://img.shields.io/badge/linkedin-Lorenzo_Rivosecchi-0077B5?logo=linkedin)](https://www.linkedin.com/in/lorenzo-rivosecchi/)
-![DEV](https://img.shields.io/badge/blog-fibonacid-black?logo=devdotto)
+[![Github](https://img.shields.io/badge/github-black?logo=github)](https://github.com/fibonacid)
+[![LinkedIn](https://img.shields.io/badge/linkedin-0077B5?logo=linkedin)](https://www.linkedin.com/in/lorenzo-rivosecchi/)
+[![DEV](https://img.shields.io/badge/blog-black?logo=devdotto)](https://dev.to/fibonacid)
+[![Website](https://img.shields.io/badge/fibonacid.net-black)](https://fibonacid.net)
 ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/fibonacid)
 
 
 ## About me
 
-I'm a Frontend Developer with 5 years of experience in the field. I'm currently working at [**Assist Digital**](https://www.assistdigital.com/) as a Frontend Developer. I have a background in Computer Music and my passions are music, technology and design.
+I'm a Frontend Developer with 5 years of experience in the field. I'm currently working at [Assist Digital](https://www.assistdigital.com/) as a Frontend Developer. I have a background in Computer Music and my passions are music, technology and design.
 
 ## Skills
 
@@ -25,12 +26,12 @@ I'm a Frontend Developer with 5 years of experience in the field. I'm currently 
 
 ## Experience
 
-### Frontend Developer at Assist Digital (2023 - Present)
+### [Assist Digital](https://www.assistdigital.com) (2023 - Present)
 
 I'm the lead frontend developer on service line dedicated to generative AI.
 I work with the team to design and develop web applications to showcase our AI solutions. My stack includes React, TypeScript, TailwindCSS, Tanstack Query, Gitlab CI/CD, Vite.
 
-### Frontend Developer at La Colonia Studio (2019 -  2023)
+### [La Colonia Studio](https://lacolonia.studio/) (2019 -  2023)
 
 I worked as a frontend developer on a wide range of projects. From marketing webistes to E-Commerce and interactive web applications. During my time at La Colonia I helped the company to optimize the development process by introducing new tools and deployment strategies. My stack included React, TypeScript, Next.js, TailwindCSS, Styled Components, Github Actions, Docker and Shopify.
 
