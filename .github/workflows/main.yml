@@ -1,22 +1,36 @@
-name: "Main"
-on: [push]
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
 jobs:
-  create-pdf:
+  release:
+    name: Release
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Use Node.js
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js 16.x
         uses: actions/setup-node@v3
         with:
-          node-version: '18.x'
-      - name: Install dependencies
-        run: yarn --frozen-lockfile
-      - name: Create PDF
-        run: yarn build
-      - name: Archive PDF
-        uses: actions/upload-artifact@v3
+          node-version: 16.x
+
+      - name: Install Dependencies
+        run: yarn
+
+      - name: Create Release Pull Request or Publish to npm
+        id: changesets
+        uses: changesets/action@v1
         with:
-          name: curriculum
-          path: ./dist/Curriculum.pdf
-  
+          # This expects you to have a script called release which does a build for your packages and calls changeset publish
+          publish: yarn build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
       
