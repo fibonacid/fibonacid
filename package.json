@@ -11,7 +11,7 @@
   "scripts": {
     "build": "node ./index.js",
     "publish": "yarn build && changeset publish",
-    "postinstall": "open node_modules/@fibonacid/curriculum/dist/Curriculum.pdf"
+    "postinstall": "open node_modules/@fibonacid/curriculum/dist/Curriculum.pdf || true"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
