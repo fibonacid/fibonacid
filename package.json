@@ -10,7 +10,7 @@
   "private": false,
   "scripts": {
     "build": "node ./index.js",
-    "publish": "yarn build && changesets publish"
+    "publish": "yarn build && changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
