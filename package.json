@@ -12,6 +12,7 @@
     "build": "node ./index.js"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.27.1",
     "fs-extra": "^11.1.1",
     "generate-github-markdown-css": "^6.1.0",
     "puppeteer": "^21.5.2",
@@ -26,4 +27,5 @@
     "unified": "^11.0.4",
     "vfile-reporter": "^8.1.0"
   }
+
 }
