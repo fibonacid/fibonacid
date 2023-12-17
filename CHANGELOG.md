@@ -1,5 +1,13 @@
 # @fibonacid/curriculum
 
+## 1.0.2
+
+### Patch Changes
+
+- 5c6641a: Open at postinstall
+- Updated dependencies [5c6641a]
+  - @fibonacid/curriculum@1.0.2
+
 ## 1.0.1
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "@fibonacid/curriculum",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Curriculum Vitae",
   "main": "index.js",
   "type": "module",
@@ -30,6 +30,6 @@
     "vfile-reporter": "^8.1.0"
   },
   "dependencies": {
-    "@fibonacid/curriculum": "^1.0.1"
+    "@fibonacid/curriculum": "^1.0.2"
   }
 }
