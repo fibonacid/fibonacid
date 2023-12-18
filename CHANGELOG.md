@@ -1,5 +1,11 @@
 # @fibonacid/curriculum
 
+## 1.0.3
+
+### Patch Changes
+
+- a9b15ad: Fix issue with postinstall
+
 ## 1.0.2
 
 ### Patch Changes
