@@ -8,10 +8,10 @@
   "author": "Lorenzo Rivosecchi <lorenzorivosecchi3@gmail.com>",
   "license": "MIT",
   "private": false,
+  "bin": "./cli.js",
   "scripts": {
     "build": "node ./index.js",
-    "publish": "yarn build && changeset publish",
-    "postinstall": "./postinstall.sh || true"
+    "publish": "yarn build && changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
