@@ -1,5 +1,11 @@
 # @fibonacid/curriculum
 
+## 1.0.6
+
+### Patch Changes
+
+- eb7f618: Use github package registry
+
 ## 1.0.5
 
 ### Patch Changes
