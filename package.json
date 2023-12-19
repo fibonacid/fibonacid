@@ -13,7 +13,7 @@
     "build": "node ./index.js",
     "publish": "yarn build && changeset publish"
   },
-  "devDependencies": {
+  "dependencies": {
     "@changesets/cli": "^2.27.1",
     "fs-extra": "^11.1.1",
     "generate-github-markdown-css": "^6.1.0",
@@ -27,6 +27,7 @@
     "reporter": "^0.1.0",
     "to-vfile": "^8.0.0",
     "unified": "^11.0.4",
-    "vfile-reporter": "^8.1.0"
+    "vfile-reporter": "^8.1.0",
+    "inquirer": "^9.2.12"
   }
 }
