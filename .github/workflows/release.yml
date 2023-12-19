@@ -23,9 +23,6 @@ jobs:
       - name: Install Dependencies
         run: yarn
 
-      - name: Override .npmrc
-        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
-
       - name: Create Release Pull Request or Publish to npm
         id: changesets
         uses: changesets/action@v1
