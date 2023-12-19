@@ -1,5 +1,12 @@
 # @fibonacid/curriculum
 
+## 1.0.5
+
+### Patch Changes
+
+- b823d12: Prompt user for download path and to open or not
+- 9865c84: Handle open command on linux and win
+
 ## 1.0.4
 
 ### Patch Changes
