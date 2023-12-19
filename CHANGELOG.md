@@ -1,5 +1,12 @@
 # @fibonacid/curriculum
 
+## 1.0.7
+
+### Patch Changes
+
+- ef288af: Fix: make sure package is rebuild before commits
+- 1ec4f45: Revert: Use github package registry
+
 ## 1.0.6
 
 ### Patch Changes
