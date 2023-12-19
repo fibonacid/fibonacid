@@ -44,11 +44,23 @@ async function main() {
 
   const { folder, filename, open } = answers;
   const filepath = path.join(folder, filename);
-  console.log(`Saving file to ${filepath}`);
 
   await fs.copyFile(source, path.join(folder, filename));
+  console.log(`\nFile saved at ${filepath}`);
 
-  if (open) execSync(`open ${filepath}`);
+  if (open) {
+    const command = isMac
+      ? `open ${filepath}`
+      : isWin
+      ? `start ${filepath}`
+      : isLinux && `xdg-open ${filepath}`;
+
+    if (!command) {
+      console.log("Could not open file");
+      return;
+    }
+    execSync(command);
+  }
 }
 
 main();
