@@ -5,6 +5,9 @@
   "main": "index.js",
   "type": "module",
   "repository": "https://github.com/fibonacid/curriculum.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "author": "Lorenzo Rivosecchi <lorenzorivosecchi3@gmail.com>",
   "license": "MIT",
   "private": false,
