@@ -1,15 +1,14 @@
 # Lorenzo Rivosecchi
 
 I'm a Web Developer with 5 years of experience in the field. I'm currently working at [Assist Digital](https://assistdigital.com) as a Frontend Developer.
-I have a background in Computer Music and my passions are music, technology and design.
+I have a background in Computer Music and my passions are Music, Technology and Design.
 
 [![Github](https://img.shields.io/badge/Github-black?logo=github)](https://github.com/fibonacid)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin)](https://www.linkedin.com/in/lorenzo-rivosecchi/)
 [![Blog](https://img.shields.io/badge/Blog-black?logo=devdotto)](https://dev.to/fibonacid)
 [![X (formerly Twitter)](https://img.shields.io/twitter/follow/fibonacid)](https://twitter.com/fibonacid)
 
-> Have you noticed that this document looks like a Github page?
-Have a look at the source code [here](https://github.com/fibonacid/curriculum)
+> Have you noticed that this document looks like a Github README? That's because it is! You can find out more about how I built it [here](https://dev.to/fibonacid/i-published-my-cv-on-npm-1d61) 
 
 ## Skills
 
