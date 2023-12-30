@@ -1,5 +1,11 @@
 # @fibonacid/curriculum
 
+## 1.0.8
+
+### Patch Changes
+
+- 934c213: Improve CLI questions
+
 ## 1.0.7
 
 ### Patch Changes
