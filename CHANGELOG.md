@@ -1,5 +1,11 @@
 # @fibonacid/curriculum
 
+## 1.0.10
+
+### Patch Changes
+
+- b170399: Reference article in first section
+
 ## 1.0.9
 
 ### Patch Changes
