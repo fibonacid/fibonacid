@@ -12,7 +12,7 @@ If you just want to read the CV, you can see the web version [here](https://fibo
 
 ## Writing
 
-The CV is written inside the [README.md](https://github.com/fibonacid/curriculum/blob/18e569d9e58bf6ecccd2b1748591ef47ae828193/README.md) file of the project.
+The CV is written inside the [README.md](https://github.com/fibonacid/curriculum/blob/main/README.md) file of the project.
 It's a simple markdown file that contains the usual sections of a CV: personal info, education, work experience, skills, etc.
 
 ```markdown
