@@ -1,5 +1,12 @@
 # @fibonacid/curriculum
 
+## 1.0.9
+
+### Patch Changes
+
+- ac92dc1: Add article entry
+- 5a4a777: Small fixes
+
 ## 1.0.8
 
 ### Patch Changes
