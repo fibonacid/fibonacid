@@ -10,7 +10,7 @@
   "private": false,
   "bin": "./cli.js",
   "scripts": {
-    "build": "node ./index.js",
+    "build": "node ./build.js",
     "publish": "changeset publish",
     "prepare": "husky install"
   },

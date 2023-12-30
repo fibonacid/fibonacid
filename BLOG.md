@@ -1,10 +1,16 @@
 # I Published my CV on NPM
 
-A few months ago I decided to refresh my old CV made with Apple Pages to something more personal. I decided that, since I'm a developer, it would be fun if my CV was generated from code. As many of my side projects go, I started with a simple idea, end I ended up with a riduculous overengineered solution that lead me to publishing my CV on NPM.
+A few months ago I decided to refresh my old CV made with Pages to something more personal. I decided that, since I'm a developer, it would be fun if my CV was generated from code. As many of my side projects go, I started with a simple idea, end I ended up with a riduculous overengineered solution that lead me to publishing the curriculum as an [NPM package](https://www.npmjs.com/package/@fibonacid/curriculum).
+
+If you want to skip the story and see the result, run the following command:
+
+```bash
+npx @fibonacid/curriculum
+```
 
 ## Writing
 
-The CV is written inside the README.md file of the project.
+The CV is written inside the [README.md](https://github.com/fibonacid/curriculum/blob/18e569d9e58bf6ecccd2b1748591ef47ae828193/README.md) file of the project.
 It's a simple markdown file that contains the usual sections of a CV: personal info, education, work experience, skills, etc.
 
 ```markdown
@@ -21,9 +27,15 @@ I have a background in Computer Music and my passions are music, technology and 
 
 ## Rendering
 
-The README of the repository is rendered to HTML using `unified` with the following plugins:
+To render the file I used [unified](https://unifiedjs.com/), with the following plugins:
 
 ```javascript
+import rehypeFormat from "rehype-format";
+import rehypeStringify from "rehype-stringify";
+import remarkParse from "remark-parse";
+import remarkRehype from "remark-rehype";
+import remarkGfm from "remark-gfm";
+
 const processor = unified()
   .use(remarkParse)
   .use(remarkGfm)
@@ -33,26 +45,63 @@ const processor = unified()
   .use(rehypeStringify);
 ```
 
-The HTML is written to a file and then converted to PDF using `puppeteer`.
+The README.md is read and processed, then written to a file inside the `dist` folder.
 
 ```javascript
+import { readFile, writeFile } from "node:fs/promises";
+
+// Read the file and process it
+const input = await readFile("README.md");
+const file = await processor.process(input);
+
+// Write the file to disk
+const output = String(file);
+await writeFile("dist/index.html", output);
+```
+
+## PDF
+
+Since most job applications require a PDF version of the CV, I decided to use [Puppeteer](https://pptr.dev/) to generate it.
+
+```javascript
+import puppeteer from "puppeteer";
+
+// Launch the headless browser and open a new page
 const browser = await puppeteer.launch({
     headless: "new",
 });
-
 const page = await browser.newPage();
 
+// Navigate to the generated HTML file and generate the PDF
 await page.goto(`file://${process.cwd()}/dist/index.html`);
-
 await page.pdf({
     path: "./dist/Curriculum.pdf",
     format: "A4",
 });
 ```
 
+Now i can execute the `build` script to get the PDF version:
+
+```json
+{
+  "scripts": {
+    "build": "node build.js"
+  }
+}
+```
+
+To make sure that the PDF is always up to date, I added a pre-commit hook that runs the build script before every commit.
+
+```bash
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+yarn build 
+```
+
 ## Styling
 
-Since the CV looked pretty good on Github, I decided to maintain the same style. For this purpose I used `generate-github-markdown-css` to generate the CSS.
+Since the `README` looked pretty good on Github, I decided to make my CV look exactly like that. Thankfully I found a package called [generate-github-markdown-css](https://www.npmjs.com/package/generate-github-markdown-css) that made it easy to grab the original CSS from Github and use it in my project.
 
 ```javascript
 import githubMarkdownCss from 'generate-github-markdown-css';
@@ -66,12 +115,20 @@ async function main() {
 }
 ```
 
+To use the CSS in my HTML i just need to add it to the head of the document using `rehype-document`:
+
+```javascript
+const processor = unified()
+  // other plugins
+  .use(rehypeDocument, {
+    css: "./assets/style.css",
+    style,
+  })
+```
+
 ## Publishing
 
 Since this CV will be distributed as a PDF, I need an automatic way to build and publish it somewhere for easy access. My first idea was to use Github Actions to build the pdf and upload it to a Google Drive folder, but the GDrive API is a bit of a pain to use, so I decided to publish it on NPM instead.
-
-I added a pre-commit hook that builds the PDF on store it in the `dist` folder. When I push a new tag, the CI publishes the code on NPM.
-
 ---
 
 At this point I thought the work was almost done. My original idea was to let people download my CV using this commad:
@@ -94,22 +151,22 @@ This doesn't work for some reason, therefore I decided to create a simple CLI sc
 
 ```javascript
 const answers = await inquirer.prompt([
-{
-    type: "input",
-    name: "folder",
-    message: "Where do you want to save the file?",
-},
-{
-    type: "input",
-    name: "filename",
-    message: "How do you want to call the file?",
-},
-{
-    type: "boolean",
-    name: "open",
-    message: "Do you want to open the file?",
-},
-]);
+    {
+      type: "input",
+      name: "folder",
+      message: "Where should I save the file?",
+    },
+    {
+      type: "input",
+      name: "filename",
+      message: "How should I name the file?",
+    },
+    {
+      type: "confirm",
+      name: "open",
+      message: "Do you want to read it now?",
+    },
+  ]);
 ```
 
 To expose the CLI I just needed to add a `bin` field to the `package.json` file:
@@ -129,9 +186,9 @@ Need to install the following packages:
   @fibonacid/curriculum
 Ok to proceed? (y) y
 
-? Where do you want to save the file? /Users/lorenzo/Downloads
-? How do you want to call the file? Curriculum.pdf
-? Do you want to open the file? true
+? Where should I save the file? /Users/lorenzo/Downloads
+? How should I name the file? Curriculum.pdf
+? Do you want to open the file? (Y/n) y
 ```
 
 ## Conclusion
