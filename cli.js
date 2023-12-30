@@ -19,7 +19,7 @@ async function main() {
     {
       type: "input",
       name: "folder",
-      message: "Where do you want to save the file?",
+      message: "Where should I save the file?",
       default: isMac
         ? `/Users/${username}/Downloads`
         : isWin
@@ -31,13 +31,13 @@ async function main() {
     {
       type: "input",
       name: "filename",
-      message: "How do you want to call the file?",
+      message: "How should I name the file?",
       default: "Curriculum.pdf",
     },
     {
-      type: "boolean",
+      type: "confirm",
       name: "open",
-      message: "Do you want to open the file?",
+      message: "Do you want to read it now?",
       default: true,
     },
   ]);
