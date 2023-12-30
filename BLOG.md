@@ -8,6 +8,8 @@ If you want to skip the story and see the result, run the following command:
 npx @fibonacid/curriculum
 ```
 
+If you just want to read the CV, you can see the web version [here](https://fibonacid.github.io/curriculum/).
+
 ## Writing
 
 The CV is written inside the [README.md](https://github.com/fibonacid/curriculum/blob/18e569d9e58bf6ecccd2b1748591ef47ae828193/README.md) file of the project.
