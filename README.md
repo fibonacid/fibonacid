@@ -71,6 +71,9 @@ In april 2020 I have graduated from the [Milan Conservatory](https://www.consmi.
 
 I like to write about the things I learn. Here are a few examples:
 
+- [How to setup a Node for Max project with TypeScript](https://dev.to/fibonacid/how-to-setup-a-node-for-max-project-with-typescript-l5p)
+- [ChatGPT clone with React Suspense and Streaming](https://dev.to/fibonacid/chatgpt-clone-with-react-suspense-and-streaming-11me)
+- [Better LLM Chatbots with React Suspense 🌀](https://dev.to/fibonacid/building-a-better-llm-chatbot-with-suspense-5de3)
 - [I Published my CV on NPM](https://dev.to/fibonacid/i-published-my-cv-on-npm-1d61)
 - [How to make a ChatBot using HTTP streaming with LangChain and Express](https://dev.to/fibonacid/quick-guide-for-langchain-streaming-via-expressjs-iod)
 - [The best way to fetch data from Sanity (using zod)](https://dev.to/fibonacid/the-best-way-to-fetch-data-from-sanity-using-zod-57jj)
@@ -83,3 +86,5 @@ I like to write about the things I learn. Here are a few examples:
 
 - [My website](https://fibonacid.net)
 - [My personal email](mailto:lorenzorivosecchi3@gmail.com)
+- [My music](https://soundcloud.com/fibonacid)
+- [My blog](https://dev.to/fibonacid)
