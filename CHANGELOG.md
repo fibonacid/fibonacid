@@ -1,5 +1,12 @@
 # @fibonacid/curriculum
 
+## 1.0.11
+
+### Patch Changes
+
+- e80a8a3: Add latest blog posts
+- e80a8a3: Add blog and soundcloud links
+
 ## 1.0.10
 
 ### Patch Changes
