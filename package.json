@@ -7,7 +7,6 @@
   "repository": "https://github.com/fibonacid/curriculum.git",
   "author": "Lorenzo Rivosecchi <lorenzorivosecchi3@gmail.com>",
   "license": "MIT",
-  "private": false,
   "bin": "./cli.js",
   "scripts": {
     "build": "node ./build.js",
@@ -18,6 +17,7 @@
     "@changesets/cli": "^2.27.1",
     "fs-extra": "^11.1.1",
     "generate-github-markdown-css": "^6.1.0",
+    "inquirer": "^9.2.12",
     "puppeteer": "^21.5.2",
     "rehype-document": "^7.0.2",
     "rehype-format": "^5.0.0",
@@ -28,8 +28,7 @@
     "reporter": "^0.1.0",
     "to-vfile": "^8.0.0",
     "unified": "^11.0.4",
-    "vfile-reporter": "^8.1.0",
-    "inquirer": "^9.2.12"
+    "vfile-reporter": "^8.1.0"
   },
   "devDependencies": {
     "husky": "^8.0.0"
