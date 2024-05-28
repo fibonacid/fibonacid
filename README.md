@@ -71,6 +71,8 @@ In april 2020 I have graduated from the [Milan Conservatory](https://www.consmi.
 
 I like to write about the things I learn. Here are a few examples:
 
+- [OAuth2 and AWS Cognito for Browser Extensions](https://dev.to/fibonacid/oauth2-and-aws-cognito-for-browser-extensions-4114)
+- [Using OpenAI to control an Ableton Live Session 🎼](https://dev.to/fibonacid/using-openai-to-control-an-ableton-live-session-1c4p)
 - [How to setup a Node for Max project with TypeScript](https://dev.to/fibonacid/how-to-setup-a-node-for-max-project-with-typescript-l5p)
 - [ChatGPT clone with React Suspense and Streaming](https://dev.to/fibonacid/chatgpt-clone-with-react-suspense-and-streaming-11me)
 - [Better LLM Chatbots with React Suspense 🌀](https://dev.to/fibonacid/building-a-better-llm-chatbot-with-suspense-5de3)
