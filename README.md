@@ -8,7 +8,7 @@ I have a background in Computer Music and my passions are Music, Technology and 
 [![Blog](https://img.shields.io/badge/Blog-black?logo=devdotto)](https://dev.to/fibonacid)
 [![X (formerly Twitter)](https://img.shields.io/twitter/follow/fibonacid)](https://twitter.com/fibonacid)
 
-> Have you noticed that this document looks like a Github README? That's because it is! You can find out more about how I built it [here](https://dev.to/fibonacid/i-published-my-cv-on-npm-1d61) 
+> Have you noticed that this document looks like a Github README? That's because it is! You can find out more about how I built it [here](https://dev.to/fibonacid/i-published-my-cv-on-npm-1d61)
 
 ## Skills
 
@@ -44,11 +44,12 @@ I'm a passionate coder with a strong interest in user experience and accessibili
 ### Assist Digital (2023 - Present)
 
 I work in the Advanced AI team at [Assist Digital](https://assistdigital.com). My job involves working with cross-functional teams to design and develop user interfaces.
-My stack includes [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), [TailwindCSS](https://tailwindcss.com/), [Tanstack Query](https://tanstack.com/query/latest), [Gitlab](https://about.gitlab.com/), [Vite](https://vitejs.dev/). 
+My stack includes [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), [TailwindCSS](https://tailwindcss.com/), [Tanstack Query](https://tanstack.com/query/latest), [Gitlab](https://about.gitlab.com/), [Vite](https://vitejs.dev/).
 
 ### La Colonia (2019 - 2023)
 
 I worked as a frontend developer on a wide range of projects. From marketing webistes to E-Commerce and interactive web applications. During my time at [La Colonia](https://lacolonia.studio) I helped the company to optimize the development process by introducing new tools and deployment strategies. Here are a few examples of projects I worked on:
+
 - [https://akfc66.gr](https://akfc66.gr/)
 - [https://andreacaputo.com](https://andreacaputo.com)
 - [https://blackmed.invernomuto.info](https://blackmed.invernomuto.info)
@@ -57,8 +58,9 @@ I worked as a frontend developer on a wide range of projects. From marketing web
 
 ### Freelance (2022 - Present)
 
-I have worked on a few projects as a freelance developer. 
+I have worked on a few projects as a freelance developer.
 Here are a few examples:
+
 - [https://eneatoldo.com](https://eneatoldo.com)
 - [https://eneatoldo.studio](https://eneatoldo.studio)
 - [https://lacortedeimiracoli.it](https://lacortedeimiracoli.it)
@@ -71,6 +73,7 @@ In april 2020 I have graduated from the [Milan Conservatory](https://www.consmi.
 
 I like to write about the things I learn. Here are a few examples:
 
+- [Custom OTP inputs are dumb. Here is how to build one.](https://dev.to/fibonacid/custom-otp-inputs-are-dumb-here-is-how-to-build-one-2d0m)
 - [OAuth2 and AWS Cognito for Browser Extensions](https://dev.to/fibonacid/oauth2-and-aws-cognito-for-browser-extensions-4114)
 - [Using OpenAI to control an Ableton Live Session 🎼](https://dev.to/fibonacid/using-openai-to-control-an-ableton-live-session-1c4p)
 - [How to setup a Node for Max project with TypeScript](https://dev.to/fibonacid/how-to-setup-a-node-for-max-project-with-typescript-l5p)
