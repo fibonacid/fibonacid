@@ -1,5 +1,11 @@
 # @fibonacid/curriculum
 
+## 1.0.12
+
+### Patch Changes
+
+- 32ba892: Add blog posts
+
 ## 1.0.11
 
 ### Patch Changes

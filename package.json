@@ -1,6 +1,6 @@
 {
   "name": "@fibonacid/curriculum",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Curriculum Vitae",
   "main": "index.js",
   "type": "module",
