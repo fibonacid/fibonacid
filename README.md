@@ -1,7 +1,7 @@
 # Lorenzo Rivosecchi
 
-I'm a Web Developer with 5 years of experience in the field. I'm currently working at [Assist Digital](https://assistdigital.com) as a Frontend Developer.
-I have a background in Computer Music and my passions are Music, Technology and Design.
+I'm a Web Developer with 5 years of experience in the field. I'm currently working at [xtream srl](https://xtreamers.io) as a Frontend Developer.
+I have a background in Electronic Music and my passions are Art, Technology and Design.
 
 [![Github](https://img.shields.io/badge/Github-black?logo=github)](https://github.com/fibonacid)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin)](https://www.linkedin.com/in/lorenzo-rivosecchi/)
@@ -41,9 +41,14 @@ I'm a passionate coder with a strong interest in user experience and accessibili
 
 ## Experience
 
-### Assist Digital (2023 - Present)
+### xtream srl (2024 - Present)
 
-I work in the Advanced AI team at [Assist Digital](https://assistdigital.com). My job involves working with cross-functional teams to design and develop user interfaces.
+I work in the Digital Products team at [xtream](https://xtreamers.io) as a Frontend Developer.
+We design and develop digital products for our clients using cutting edge technology and applying data driven decisions.
+
+### Assist Digital (2023 - 2024)
+
+I worked in the Advanced AI team at [Assist Digital](https://assistdigital.com). My job involves working with cross-functional teams to design and develop user interfaces.
 My stack includes [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), [TailwindCSS](https://tailwindcss.com/), [Tanstack Query](https://tanstack.com/query/latest), [Gitlab](https://about.gitlab.com/), [Vite](https://vitejs.dev/).
 
 ### La Colonia (2019 - 2023)
