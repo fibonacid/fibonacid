@@ -1,6 +1,6 @@
 # Lorenzo Rivosecchi
 
-I'm a Web Developer with 5 years of experience in the field. I'm currently working at [xtream srl](https://xtreamers.io) as a Frontend Developer.
+I'm a Web Developer with `<?= date("Y") - 2019>` years of experience in the field. I'm currently working at [xtream srl](https://xtreamers.io) as a Frontend Developer.
 I have a background in Electronic Music and my passions are Art, Technology and Design.
 
 [![Github](https://img.shields.io/badge/Github-black?logo=github)](https://github.com/fibonacid)
