@@ -27,6 +27,7 @@ I'm a passionate coder with a strong interest in user experience and accessibili
 [![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodejs&logoColor=white)](https://nodejs.org/en)
 [![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white)](https://www.openai.com/)
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![React.js](https://img.shields.io/badge/React.js-61DAFB?logo=react&logoColor=black)](https://react.dev/)
 [![Ruby on Rails](https://img.shields.io/badge/Ruby_on_Rails-CC0000?logo=ruby-on-rails&logoColor=white)](https://rubyonrails.org/)
 [![Sanity](https://img.shields.io/badge/Sanity-000000?logo=sanity&logoColor=white)](https://www.sanity.io/)
