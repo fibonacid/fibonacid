@@ -9,7 +9,7 @@ import { unified } from "unified";
 import { reporter } from "vfile-reporter";
 import { readFile, writeFile } from "node:fs/promises";
 import { mkdirp, copy, emptyDir } from "fs-extra";
-import puppeteer from "puppeteer";
+import playwright from "playwright";
 
 const style = `
 body {
@@ -27,58 +27,63 @@ body {
 }`;
 
 const processor = unified()
-	.use(remarkParse)
-	.use(remarkGfm)
-	.use(remarkRehype)
-	.use(rehypeDocument, {
-		css: "./assets/style.css",
-		style,
-	})
-	.use(rehypeFormat)
-	.use(rehypeStringify);
+  .use(remarkParse)
+  .use(remarkGfm)
+  .use(remarkRehype)
+  .use(rehypeDocument, {
+    css: "./assets/style.css",
+    style,
+  })
+  .use(rehypeFormat)
+  .use(rehypeStringify);
 
 async function main() {
-	// clean dist
-	await mkdirp("dist");
-	await emptyDir("dist");
+  // clean dist
+  await mkdirp("dist");
+  await emptyDir("dist");
 
-	// copy assets
-	await copy("assets", "dist/assets");
+  // copy assets
+  await copy("assets", "dist/assets");
 
-	// generate README.md
-	const templateSource = await readFile("README.hbs", "utf-8");
-	const pinned = await readFile("pinned.json", "utf-8");
-	const template = Handlebars.compile(templateSource);
-	await writeFile("README.md", template({ pinned: JSON.parse(pinned) }));
+  // generate README.md
+  const templateSource = await readFile("README.hbs", "utf-8");
+  const pinned = await readFile("pinned.json", "utf-8");
+  const template = Handlebars.compile(templateSource);
+  await writeFile("README.md", template({ pinned: JSON.parse(pinned) }));
 
-	// generate index.html
-	const input = await readFile("README.md");
-	const file = await processor.process(input);
-	console.error(reporter(file));
-	const text = String(file);
-	await writeFile("dist/index.html", text);
+  // generate index.html
+  const input = await readFile("README.md");
+  const file = await processor.process(input);
+  console.error(reporter(file));
+  const text = String(file);
+  await writeFile("dist/index.html", text);
 
-	// print pdf
-	const browser = await puppeteer.launch({
-		headless: "new",
-	});
-	const page = await browser.newPage();
-	await page.goto(`file://${process.cwd()}/dist/index.html`);
-	await page.pdf({
-		path: "./dist/Curriculum.pdf",
-		format: "A4",
-		printBackground: true,
-		margin: {
-			top: "1cm",
-			bottom: "1cm",
-			left: "1cm",
-			right: "1cm",
-		},
-	});
-	await browser.close();
+  // print pdf
+  console.log("launching browser...");
+  const browser = await playwright.chromium.launch();
+
+  console.log("creating page...");
+  const page = await browser.newPage();
+
+  console.log("loading html...");
+  await page.goto(`file://${process.cwd()}/dist/index.html`);
+
+  console.log("generating pdf...");
+  await page.pdf({
+    path: "./dist/Curriculum.pdf",
+    format: "A4",
+    printBackground: true,
+    margin: {
+      top: "1cm",
+      bottom: "1cm",
+      left: "1cm",
+      right: "1cm",
+    },
+  });
+  await browser.close();
 }
 
 main().catch((error) => {
-	console.error(error);
-	process.exit(1);
+  console.error(error);
+  process.exit(1);
 });
