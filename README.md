@@ -7,6 +7,10 @@ I have a background in Electronic Music and my passions are Art, Technology and 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin)](https://www.linkedin.com/in/lorenzo-rivosecchi/)
 [![Blog](https://img.shields.io/badge/Blog-black?logo=devdotto)](https://dev.to/fibonacid)
 
+```bash
+npx @fibonacid/curriculum@latest
+```
+
 ## 🚀 Pinned Repositories
 
 - **[fibonacid/superorch](https://github.com/fibonacid/superorch)** — A chat where people make electronic music together  
