@@ -48,8 +48,15 @@ async function main() {
   // generate README.md
   const templateSource = await readFile("README.hbs", "utf-8");
   const pinned = await readFile("pinned.json", "utf-8");
+
   const template = Handlebars.compile(templateSource);
-  await writeFile("README.md", template({ pinned: JSON.parse(pinned) }));
+  await writeFile(
+    "README.md",
+    template({
+      pinned: JSON.parse(pinned),
+      yearsExperience: String(new Date().getFullYear() - 2019),
+    })
+  );
 
   // generate index.html
   const input = await readFile("README.md");

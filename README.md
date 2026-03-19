@@ -1,6 +1,6 @@
 # Lorenzo Rivosecchi
 
-I'm a Web Developer with 6 years of experience in the field. I'm currently working at [xtream srl](https://xtreamers.io) as a Software Developer.
+I'm a Web Developer with 7 years of experience in the field. I'm currently working at [xtream srl](https://xtreamers.io) as a Software Developer.
 I have a background in Electronic Music and my passions are Art, Technology and Design.
 
 [![Github](https://img.shields.io/badge/Github-black?logo=github)](https://github.com/fibonacid)
@@ -13,14 +13,16 @@ npx @fibonacid/curriculum@latest
 
 ## 🚀 Pinned Repositories
 
+- **[fibonacid/foss-dj-player](https://github.com/fibonacid/foss-dj-player)** — A free and open source dj player  
+  _(Shell)_ ⭐ 10
+- **[fibonacid/fibonacid-net](https://github.com/fibonacid/fibonacid-net)**  
+  _(TypeScript)_ ⭐ 0
 - **[fibonacid/superorch](https://github.com/fibonacid/superorch)** — A chat where people make electronic music together  
   _(JavaScript)_ ⭐ 1
 - **[AssassinRobot/Bandcamper](https://github.com/AssassinRobot/Bandcamper)** — CLI Bandcamp downloader  
   _(Go)_ ⭐ 4
 - **[fibonacid/rekordbox-genre-classifier](https://github.com/fibonacid/rekordbox-genre-classifier)** — A script that automatically assigns genres to your rekordbox collection  
-  _(Python)_ ⭐ 1
-- **[fibonacid/fibonacid-net](https://github.com/fibonacid/fibonacid-net)**  
-  _(TypeScript)_ ⭐ 0
+  _(Python)_ ⭐ 2
 
 ## Skills
 
