@@ -1,5 +1,11 @@
 # @fibonacid/curriculum
 
+## 1.0.17
+
+### Patch Changes
+
+- update pinned repos and years of experience
+
 ## 1.0.13
 
 ### Patch Changes
