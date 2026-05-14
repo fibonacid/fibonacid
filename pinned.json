@@ -35,7 +35,7 @@
     "description": "Installation for Triennale di Milano",
     "name": "frans-dijkmeijer-the-silent-pioneer-installation",
     "owner": { "login": "fibonacid" },
-    "primaryLanguage": null,
+    "primaryLanguage": { "name": "C" },
     "stargazerCount": 0,
     "url": "https://github.com/fibonacid/frans-dijkmeijer-the-silent-pioneer-installation"
   }

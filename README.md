@@ -22,7 +22,7 @@ npx @fibonacid/curriculum@latest
 - **[fibonacid/rekordbox-genre-classifier](https://github.com/fibonacid/rekordbox-genre-classifier)** — A script that automatically assigns genres to your rekordbox collection  
   _(Python)_ ⭐ 2
 - **[fibonacid/frans-dijkmeijer-the-silent-pioneer-installation](https://github.com/fibonacid/frans-dijkmeijer-the-silent-pioneer-installation)** — Installation for Triennale di Milano  
-  _()_ ⭐ 0
+  _(C)_ ⭐ 0
 
 ## Skills
 
