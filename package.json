@@ -4,11 +4,16 @@
   "description": "Curriculum Vitae",
   "main": "index.js",
   "type": "module",
-	"private": false,
-  "repository": "https://github.com/fibonacid/fibonacid.git",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fibonacid/fibonacid.git"
+  },
   "author": "Lorenzo Rivosecchi <lorenzorivosecchi3@gmail.com>",
   "license": "MIT",
-  "bin": "./cli.js",
+  "bin": {
+    "curriculum": "cli.js"
+  },
   "scripts": {
     "build": "node ./build.js",
     "publish": "changeset publish",

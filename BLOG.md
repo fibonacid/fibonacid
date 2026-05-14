@@ -70,15 +70,15 @@ import puppeteer from "puppeteer";
 
 // Launch the headless browser and open a new page
 const browser = await puppeteer.launch({
-    headless: "new",
+  headless: "new",
 });
 const page = await browser.newPage();
 
 // Navigate to the generated HTML file and generate the PDF
 await page.goto(`file://${process.cwd()}/dist/index.html`);
 await page.pdf({
-    path: "./dist/Curriculum.pdf",
-    format: "A4",
+  path: "./dist/Curriculum.pdf",
+  format: "A4",
 });
 ```
 
@@ -98,7 +98,7 @@ To make sure that the PDF is always up to date, I added a pre-commit hook that r
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-yarn build 
+yarn build
 ```
 
 ## Styling
@@ -125,13 +125,12 @@ const processor = unified()
   .use(rehypeDocument, {
     css: "./assets/style.css",
     style,
-  })
+  });
 ```
 
 ## Publishing
 
-Since this CV will be distributed as a PDF, I need an automatic way to build and publish it somewhere for easy access. My first idea was to use Github Actions to build the pdf and upload it to a Google Drive folder, but the GDrive API is a bit of a pain to use, so I decided to publish it on NPM instead.
----
+## Since this CV will be distributed as a PDF, I need an automatic way to build and publish it somewhere for easy access. My first idea was to use Github Actions to build the pdf and upload it to a Google Drive folder, but the GDrive API is a bit of a pain to use, so I decided to publish it on NPM instead.
 
 At this point I thought the work was almost done. My original idea was to let people download my CV using this commad:
 
@@ -153,22 +152,22 @@ This doesn't work for some reason, therefore I decided to create a simple CLI sc
 
 ```javascript
 const answers = await inquirer.prompt([
-    {
-      type: "input",
-      name: "folder",
-      message: "Where should I save the file?",
-    },
-    {
-      type: "input",
-      name: "filename",
-      message: "How should I name the file?",
-    },
-    {
-      type: "confirm",
-      name: "open",
-      message: "Do you want to read it now?",
-    },
-  ]);
+  {
+    type: "input",
+    name: "folder",
+    message: "Where should I save the file?",
+  },
+  {
+    type: "input",
+    name: "filename",
+    message: "How should I name the file?",
+  },
+  {
+    type: "confirm",
+    name: "open",
+    message: "Do you want to read it now?",
+  },
+]);
 ```
 
 To expose the CLI I just needed to add a `bin` field to the `package.json` file:
@@ -196,4 +195,3 @@ Ok to proceed? (y) y
 ## Conclusion
 
 This project was a lot of fun to build and I learned a lot of new things. I'm excited to build more stuff with Markdown and `unified` in the future. If you want to check out the full code, you can find it [here](https://github.com/fibonacid/curriculum)
-
